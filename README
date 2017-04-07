@@ -1,0 +1,29 @@
+pyvenv_tools
+
+This is puppet module to setup and configure the pyvenv_tools.
+
+Usage
+-----
+
+Example 1
+
+pyvenv_tools::pyvenv::symlink {"fix_pyvenv_symlink": }
+
+Finds pyvenv-3.x in PATH's dirs and creates 'pyvenv -> pyvenv-3.x' symlink
+
+License
+-------
+
+
+Contact
+-------
+st01tkh@gmail.com
+
+Limitations
+-----------
+
+This module was tested only on linux (Ubuntu Xenial).
+
+
+Support
+-------
