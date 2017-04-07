@@ -7,7 +7,7 @@ Usage
 
 Example 1
 
-pyvenv_tools::pyvenv::symlink {"fix_pyvenv_symlink": }
+pyvenv_tools::symlink {"fix_pyvenv_symlink": }
 
 Finds pyvenv-3.x in PATH's dirs and creates 'pyvenv -> pyvenv-3.x' symlink
 
